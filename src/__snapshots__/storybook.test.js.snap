@@ -1,127 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Task Archived 1`] = `
-<div
-  className="list-item TASK_ARCHIVED"
->
-  <label
-    className="checkbox"
-  >
-    <input
-      defaultChecked={true}
-      disabled={true}
-      name="checked"
-      type="checkbox"
-    />
-    <span
-      className="checkbox-custom"
-      onClick={[Function]}
-    />
-  </label>
-  <div
-    className="title"
-  >
-    <input
-      placeholder="Input title"
-      readOnly={true}
-      type="text"
-      value="Test Task"
-    />
-  </div>
-  <div
-    className="actions"
-    onClick={[Function]}
-  />
-</div>
-`;
-
-exports[`Storyshots Task Default 1`] = `
-<div
-  className="list-item TASK_INBOX"
->
-  <label
-    className="checkbox"
-  >
-    <input
-      defaultChecked={false}
-      disabled={true}
-      name="checked"
-      type="checkbox"
-    />
-    <span
-      className="checkbox-custom"
-      onClick={[Function]}
-    />
-  </label>
-  <div
-    className="title"
-  >
-    <input
-      placeholder="Input title"
-      readOnly={true}
-      type="text"
-      value="Test Task"
-    />
-  </div>
-  <div
-    className="actions"
-    onClick={[Function]}
-  >
-    <a
-      onClick={[Function]}
-    >
-      <span
-        className="icon-star"
-      />
-    </a>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Task Pinned 1`] = `
-<div
-  className="list-item TASK_PINNED"
->
-  <label
-    className="checkbox"
-  >
-    <input
-      defaultChecked={false}
-      disabled={true}
-      name="checked"
-      type="checkbox"
-    />
-    <span
-      className="checkbox-custom"
-      onClick={[Function]}
-    />
-  </label>
-  <div
-    className="title"
-  >
-    <input
-      placeholder="Input title"
-      readOnly={true}
-      type="text"
-      value="Test Task"
-    />
-  </div>
-  <div
-    className="actions"
-    onClick={[Function]}
-  >
-    <a
-      onClick={[Function]}
-    >
-      <span
-        className="icon-star"
-      />
-    </a>
-  </div>
-</div>
-`;
-
-exports[`Storyshots TaskList Default 1`] = `
+exports[`Storyshots PureTaskList Default 1`] = `
 <div
   style={
     Object {
@@ -376,7 +255,7 @@ exports[`Storyshots TaskList Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaskList Empty 1`] = `
+exports[`Storyshots PureTaskList Empty 1`] = `
 <div
   style={
     Object {
@@ -408,7 +287,7 @@ exports[`Storyshots TaskList Empty 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaskList Loading 1`] = `
+exports[`Storyshots PureTaskList Loading 1`] = `
 <div
   style={
     Object {
@@ -555,7 +434,7 @@ exports[`Storyshots TaskList Loading 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaskList With Pinned Tasks 1`] = `
+exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
 <div
   style={
     Object {
@@ -806,6 +685,127 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         </a>
       </div>
     </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task Archived 1`] = `
+<div
+  className="list-item TASK_ARCHIVED"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={true}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Storyshots Task Default 1`] = `
+<div
+  className="list-item TASK_INBOX"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        className="icon-star"
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task Pinned 1`] = `
+<div
+  className="list-item TASK_PINNED"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        className="icon-star"
+      />
+    </a>
   </div>
 </div>
 `;
